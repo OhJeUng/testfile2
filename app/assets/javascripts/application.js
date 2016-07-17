@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require facebook
+//= require jquery.dropotron.min
+//= require jquery.min
+//= require jquery.scrollgress.min
+//= require jquery.scrolly.min
+//= main
+//= pagemove
+//= script2
+//= skel.min
+//= util
