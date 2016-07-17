@@ -1,0 +1,1763 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <article id="main">
+
+        <header class="special container">
+            <a href="javascript:home()"><span class="icon fa-mobile"></span></a>
+            <a href="javascript:home()"><h2>상지대학교  <strong>강의평가 게시판</strong></h2></a>
+            <p>후배님들 강의평가를 잘 보시고 다음 후배님들을 위해 평가를 남기시지 말입니다.</p>
+
+      
+
+
+            <center>
+                <strong><h3>2학기 개강일까지</h3></strong>
+
+                <br><br>
+
+                <font id="d1">0</font>
+                <font id="d2">0</font>
+                <font id="d3">0</font>일
+                <font id="h1">0</font>
+                <font id="h2">0</font>시간
+                <font id="m1">0</font>
+                <font id="m2">0</font>분
+                <font id="s1">0</font>
+                <font id="s2">0</font>초
+
+            </center>
+
+        </header>
+        <!-- Single button -->
+        <!-- One -->
+    </article>
+    
+
+</head>
+
+<STYLE type=text/css>
+    BODY {
+        FONT-SIZE: 9pt
+    }
+    
+    FONT {
+        FONT-SIZE: 9pt;
+        LINE-HEIGHT: 16pt
+    }
+    
+    A:link {
+        TEXT-DECORATION: none
+    }
+    
+    A:visited {
+        TEXT-DECORATION: none
+    }
+    
+    A:active {
+        TEXT-DECORATION: none
+    }
+</STYLE>
+
+<!-- Scripts -->
+
+
+
+<body class="no-sidebar" onLoad="getTime();" background="../main/back.jpg" text="black" link="blue" vlink="blue" alink="blue" onKeyDown="shiftkeydown();">
+
+
+    <CENTER>
+        <div class=container>
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                인문사회과학대학<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="javascript:KLAL()">국어국문학과</a></li>
+                        <li><a href="javascript:SocialWelfare()">사회복지학과</a></li>
+                        <li><a href="javascript:china()">중국학과</a></li>
+                        <li><a href="javascript:YungMeUhMoon()">영미어문학부</a></li>
+                        <li><a href="javascript:hangjung()">행정학부</a></li>
+                        <li><a href="javascript:UnLonGuangGo()">언론광고학부</a></li>
+                        <li><a href="javascript:MoonHwaContents()">문화콘텐츠학과</a></li>
+                        <li><a href="javascript:BubBooDongSan()">법부동산학부</a></li>
+                    </ul>
+                </li>
+
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                  경상대학<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="javascript:BAD()">경영학과</a></li>
+                        <li>
+                            <a href="javascript:HweGye()">
+                                <font color="red">회계학과</font>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=changup>
+                                <font color="red">창업경영학과</font>
+                            </a>
+                        </li>
+                        <li><a href="javascript:Tourism()">관광학부</a></li>
+                        <li><a href="javascript:gyungje()">경제학과</a></li>
+                        <li><a href="javascript:MooYuk()">무역학과</a></li>
+                        <li>
+                            <a href="#">
+                                <font color="red">국제비지니스학과</font>
+                            </a>
+                        </li>
+                        <li><a href="javascript:MAIE()">경영정보학과</a></li>
+                    </ul>
+                </li>
+
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                생명자원과학대학<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li>
+                            <a href="javascript:SanLim()">
+                                <font color="red">산림과학과</font>
+                            </a>
+                        </li>
+                        <li><a href="javascript:ChinHwanGyung()">친환경식물학부</a></li>
+                        <li><a href="javascript:DongMoolSangMyung()">동물생명자원학부</a></li>
+                    </ul>
+                </li>
+
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                  이공과대학<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="javascript:WoongYongGwaHak()">
+                                <font color="red">응용물리전자학과</font>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <font color="red">정밀화학신소재학과</font>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:SangMyungGwaHak()">
+                                <font color "red">생명과학과</font>
+                            </a>
+                        </li>
+                        <li><a href="javascript:ComData()">컴퓨터데이터정보학과</a></li>
+                        <li><a href="javascript:GunSulSystem()">건설시스템공학과</a></li>
+                        <li>
+                            <a href="javascript:SinEnerge()">
+                                <font color="red">신에너지자원공학과</font>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:HwanGyung()">
+                                <font color="red">환경공학과</font>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:ComputerJungBo()">
+                                <font color="red">컴퓨터정보공학부</font>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:SangHwalGwaHak()">
+                                <font color="red">생활과학산업학과</font>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                     예술체육대학<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:SangHwalJoHyung()">생활조형디자인학과</a></li>
+                        <li>
+                            <a href="javascript:Design()">
+                                <font color="red">디자인학부</font>
+                            </a>
+                        </li>
+                        <li><a href="javascript:CheYoockHakGwa()">체육학부</a></li>
+                    </ul>
+                </li>
+
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                      한의과대학<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:hanE()">한의학과</a></li>
+                        <li><a href="javascript:PHM()">한의예과</a></li>
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                      보건과학대학<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:nures()">간호학과</a></li>
+                        <li><a href="javascript:hanbang()">한방의료공학과</a></li>
+                        <li><a href="javascript:WooiRyo()">의료경영학과</a></li>
+                        <li>
+                            <a href="javascript:SikPoom()">
+                                <font color="red">식품영양학과</font>
+                            </a>
+                        </li>
+                        <li><a href="javascript:JaeYak()">제약공학과</a></li>
+                        <li><a href="javascript:MoolLeeChiRyo()">물리치료학과</a></li>
+                        <li>
+                            <a href="javascript:ImSangByungLee()">
+                                <font color="red">임상병리학과</font>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                      교양과목<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:rating()"> 교양과목</a></li>
+                        <li>
+                            <a href="javascript:DaeHakKwonJang()">
+                                <font color="red">대학권장</font>
+                            </a>
+                        </li>
+                </li>
+                </ul>
+
+            </ul>
+
+        </div>
+
+        <BR>
+        <div class="container" width="100px">
+            <table class="table" cellspacing="30" bordercolordark="white" width="1%">
+                <TR>
+                    <th width="5%" height="20px">
+                        <font size="1">구분</font>
+                    </th>
+                    <th width="5%">
+                        <font size=-1>학년</font>
+                    </th>
+                    <th>
+                        <font size=-1>교과목명</font>
+                    </th>
+                    <th width="10%">
+                        <font size=-1>과목코드</font>
+                    </th>
+                    <th width="5%">
+                        <font size=-1>학점</font>
+                    </th>
+                    <th width="5%">
+                        <font size=-1>시간</font>
+                    </th>
+                    <th>
+                        <font size=-1>교원명</font>
+                    </th>
+                    <th>
+                        <font size=-1>강좌시간</font>
+                    </th>
+                    <th>
+                        <font size=-1>강의실</font>
+                    </th>
+                    <th>
+                        <font size=-1>강의평점</font>
+                    </th>
+                    <!--	        <th ><font size=-1>���재수강인원</font></th>-->
+                    <th>
+                        <font size=-1>과제평점</font>
+                    </th>
+                </TR>
+
+
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a16" data-toggle="modal">
+                            <font size=-1>지역공동체기행 </font>
+                        </a>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>05380-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>최덕천</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>화7,8 수3 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>동악-4101, 복합-311 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402216"></div>
+                    </TD>
+                    <!--				<TD align = center><font size=-1>14</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402241"></div>
+
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a17" data-toggle="modal">
+                            <font size=-1>지역문화와생명사상 </font>
+                        </a>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>05377-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>정원교</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>수7,8,9 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>동악-4101 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402217"></div>
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>33</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402242"></div>
+                        <script type="text/javascript">
+                        </script>
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a18" data-toggle="modal">
+                            <font size=-1>취업과진로Ⅰ </font>
+                        </a>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>03766-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>2</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>2</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>양미경</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>수2,3 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>학술-601 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402218"></div>
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>88</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402244"></div>
+
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a19" data-toggle="modal">
+                            <font size=-1>취업과진로Ⅱ </font>
+                        </a>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>03765-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>2</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>2</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>양미경</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>수7,8 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>학술-601 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402219"></div>
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>45</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402245"></div>
+
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a20" data-toggle="modal">
+                            <font size=-1>한국사회의이해 </font>
+                        </a>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>02526-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>박치현</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>금4,5,6 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>동악-3108 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402267"></div>
+
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>10</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402246"></div>
+
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a21" data-toggle="modal">
+                            <font size=-1>한국정치론 </font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>02136-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>김영수</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>금4,5,6 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>동악-3109 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402221"></div>
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>26</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402247"></div>
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a22" data-toggle="modal">
+                            <font size=-1>한국정치론 </font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>02136-02</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>김영수</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>금7,8,9 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>동악-3109 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402222"></div>
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>3</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402248"></div>
+
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a23" data-toggle="modal">
+                            <font size=-1>현대경영의이해 </font>
+                        </a>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>03967-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>이규만</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>수7,8,9 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>동악-1104 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402272"></div>
+
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>31</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402249"></div>
+
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a24" data-toggle="modal">
+                            <font size=-1>현대민주주의론 </font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>02215-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>김영일</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>수7,8,9 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>동악-3109 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402274"></div>
+
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>32</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402250"></div>
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a25" data-toggle="modal">
+                            <font size=-1>현대사회와인권 </font>
+                        </a>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>02217-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>노기남</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>목7,8,9 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>동악-3109 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402225"></div>
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>57</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402251"></div>
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체
+                            <font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a26" data-toggle="modal">
+                            <font size=-1>현대사회와환경 </font>
+                        </a>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>02218-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>최덕천</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>월 7 목7,8 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>동물-402 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402226"></div>
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>11</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402253"></div>
+
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a27" data-toggle="modal">
+                            <font size=-1>현대정치의이해 </font>
+                        </a>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>02226-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>김명숙</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>월8,9 목7 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>동악-2112 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402275"></div>
+
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>1</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402254"></div>
+
+                    </TD>
+
+                </TR>
+
+                <TR>
+                    <TD align=c enter width=32>
+                        <font size=-1>교선</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>전체</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <A href="#a28" data-toggle="modal">
+                            <font size=-1>협동사회와직업탐색 </font>
+                        </a>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>05180-01</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+                    <TD align=c enter width=32>
+                        <font size=-1>3</font>
+                    </TD>
+
+                    <TD align=c enter width=64>
+                        <font size=-1>최덕천</font>
+                    </TD>
+
+                    <TD align=l eft>
+                        <font size=-1>화3 수7,8 &nbsp</font>
+                    </TD>
+                    <TD align=l eft>
+                        <font size=-1>동악-2111 &nbsp</font>
+                    </TD>
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402268"></div>
+
+
+                    </TD>
+                    <!--				<TD align = center><font size=-1>11</font></TD>-->
+
+                    <TD align=c enter>
+                        <div id="pd_rating_holder_8402256"></div>
+
+
+                    </TD>
+
+                </TR>
+
+            </TABLE>
+        </div>
+        <nav>
+            <ul class="pagination">
+                <li>
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li><a href="javascript:rating()">1</a></li>
+                <li><a href="javascript:rating2()">2</a></li>
+
+                <li>
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </CENTER>
+
+    <!-- 지역공동체기행 시작 -->
+    <div class="modal modal-center fade" id="a16" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>지역공동체기행</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>최덕천</center>
+                                </td>
+                                <td>
+                                    <center>화 78 수 3</center>
+                                </td>
+                                <td>
+                                    <center>3학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=16" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  끝-->
+    <!-- 지역문화와생명사상 시작 -->
+    <div class="modal modal-center fade" id="a17" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>지역문화와생명사상</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>정원교</center>
+                                </td>
+                                <td>
+                                    <center>수 789</center>
+                                </td>
+                                <td>
+                                    <center>3학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=17" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 지역문화와생명사상 끝-->
+    <!-- 취업과진로Ⅰ 시작 -->
+    <div class="modal modal-center fade" id="a18" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>취업과진로Ⅰ</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>양미경</center>
+                                </td>
+                                <td>
+                                    <center>수 23</center>
+                                </td>
+                                <td>
+                                    <center>2학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=18" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 취업과진로Ⅰ 끝-->
+    <!-- 취업과진로Ⅱ 시작 -->
+    <div class="modal modal-center fade" id="a19" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>취업과진로Ⅱ</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>양미경</center>
+                                </td>
+                                <td>
+                                    <center>수 78</center>
+                                </td>
+                                <td>
+                                    <center>2학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=19" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 취업과진로Ⅱ 끝-->
+    <!-- 한국사회의이해 시작 -->
+    <div class="modal modal-center fade" id="a20" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>한국사회의이해</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>박치현</center>
+                                </td>
+                                <td>
+                                    <center>금 456</center>
+                                </td>
+                                <td>
+                                    <center>3학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=20" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 한국사회의이해 끝-->
+    <!-- 한국정치론 시작 -->
+    <div class="modal modal-center fade" id="a21" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>한국정치론</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>김영수</center>
+                                </td>
+                                <td>
+                                    <center>금 456</center>
+                                </td>
+                                <td>
+                                    <center>3학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=21" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 한국정치론 끝-->
+    <!-- 한국정치론 시작 -->
+    <div class="modal modal-center fade" id="a22" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>한국정치론</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>김영수</center>
+                                </td>
+                                <td>
+                                    <center>금 789</center>
+                                </td>
+                                <td>
+                                    <center>3학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=22" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 한국정치론 끝-->
+    <!-- 현대경영의이해 시작 -->
+    <div class="modal modal-center fade" id="a23" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>현대경영의이해</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>이규만</center>
+                                </td>
+                                <td>
+                                    <center>수 789</center>
+                                </td>
+                                <td>
+                                    <center>3학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=23" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 현대경영의이해 끝-->
+    <!-- 현대민주주의론	 시작 -->
+    <div class="modal modal-center fade" id="a24" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>현대민주주의론</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>김영일</center>
+                                </td>
+                                <td>
+                                    <center>수 789</center>
+                                </td>
+                                <td>
+                                    <center>3학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=24" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 현대민주주의론 끝-->
+    <!-- 현대사회와인권 시작 -->
+    <div class="modal modal-center fade" id="a25" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>현대사회와인권</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>노기남</center>
+                                </td>
+                                <td>
+                                    <center>목 789</center>
+                                </td>
+                                <td>
+                                    <center>3학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=25" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 현대사회와인권 끝-->
+    <!-- 현대사회와환경 시작 -->
+    <div class="modal modal-center fade" id="a26" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>현대사회와환경</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>최덕천</center>
+                                </td>
+                                <td>
+                                    <center>월 7 목 78</center>
+                                </td>
+                                <td>
+                                    <center>3학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=26" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 현대사회와환경 끝-->
+    <!-- 현대정치의이해 시작 -->
+    <div class="modal modal-center fade" id="a27" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>현대정치의이해</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>김명숙</center>
+                                </td>
+                                <td>
+                                    <center>월 89 목 7</center>
+                                </td>
+                                <td>
+                                    <center>3학점</center>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div id="fb-root">
+                    <center>
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=27" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 현대정치의이해 끝-->
+    <!-- 협동사회와직업탐색 시작 -->
+    <div class="modal modal-center fade" id="a28" tabindex="-1" role="dialog" aria-labelledby="my80sizeCenterModalLabel">
+        <div class="modal-dialog modal-80size modal-center" role="document">
+            <div class="modal-content modal-80size">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><center>협동사회와직업탐색</center></h4>
+                </div>
+                <div class="modal-body">
+                    <table align="center" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <center>교수명</center>
+                                </th>
+                                <center>
+                                    <th>
+                                        <center>강좌 시간
+                                            <center>
+                                    </th>
+                                    </center>
+                                    <center>
+                                        <th>
+                                            <center>학점
+                                                <center>
+                                        </th>
+                                        </center>
+                                        <center>
+                                            <th>
+                                                <center>별점
+                                                    <center>
+                                            </th>
+                                            </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <center>최덕천</center>
+                                </td>
+                                <td>
+                                    <center>화 3 수78</center>
+                                </td>
+                                <td>
+                                    <center>3학점</center>
+                                </td>
+                                <td>
+
+
+
+
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div id="fb-root">
+                    <center>
+
+
+
+                        <div class="fb-comments" data-href="http://connect.facebook.net/ko_KR/all.js#appId=282904155380852&amp;xfbml=28" data-numposts="5"></div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 협동사회와직업탐색 끝-->
+
+    <SCRIPT LANGUAGE="JavaScript">
+        <!--
+        function getTime() {
+            now = new Date();
+            later = new Date("August 29 2016 0:00:01"); //완료시간 지정 - 월 일 년 시 분 초
+            days = (later - now) / 1000 / 60 / 60 / 24;
+            daysRound = Math.floor(days);
+            hours = (later - now) / 1000 / 60 / 60 - (24 * daysRound);
+            hoursRound = Math.floor(hours);
+            minutes = (later - now) / 1000 / 60 - (24 * 60 * daysRound) - (60 * hoursRound);
+            minutesRound = Math.floor(minutes);
+            seconds = (later - now) / 1000 - (24 * 60 * 60 * daysRound) - (60 * 60 * hoursRound) - (60 * minutesRound);
+            secondsRound = Math.round(seconds);
+
+            if (secondsRound <= 9) {
+                s1.innerHTML = "0";
+                s2.innerHTML = secondsRound;
+            } else {
+                s1.innerHTML = Math.floor(secondsRound / 10);
+                s2.innerHTML = secondsRound % 10;
+            }
+
+            if (minutesRound <= 9) {
+                m1.innerHTML = "0";
+                m2.innerHTML = minutesRound;
+            } else {
+                m1.innerHTML = Math.floor(minutesRound / 10);
+                m2.innerHTML = minutesRound % 10;
+            }
+
+            if (hoursRound <= 9) {
+                h1.innerHTML = "0";
+                h2.innerHTML = hoursRound;
+            } else {
+                h1.innerHTML = Math.floor(hoursRound / 10);
+                h2.innerHTML = hoursRound % 10;
+            }
+
+            if (daysRound <= 9) {
+                d1.innerHTML = "0";
+                d2.innerHTML = "0";
+                innerHTML = daysRound;
+            }
+
+            if (daysRound <= 99) {
+                d1.innerHTML = "0";
+                d2.innerHTML = Math.floor((daysRound / 10) % 10);
+                d3.innerHTML = Math.floor(daysRound % 10);
+            }
+
+            if (daysRound <= 999) {
+                d1.innerHTML = Math.floor(daysRound / 100);
+                d2.innerHTML = Math.floor((daysRound / 10) % 10);
+                d3.innerHTML = Math.floor(daysRound % 10);
+            }
+            newtime = window.setTimeout("getTime();", 1000);
+        }
+        //-->
+    </script>
+    
+
+
+</body>
+
+</html>
