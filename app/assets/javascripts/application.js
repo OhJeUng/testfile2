@@ -19,8 +19,8 @@
 //= require jquery.min
 //= require jquery.scrollgress.min
 //= require jquery.scrolly.min
-//= main
-//= pagemove
-//= script2
-//= skel.min
-//= util
+//= require main
+//= require pagemove
+//= require script2
+//= require skel.min
+//= require util
