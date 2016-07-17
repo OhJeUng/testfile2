@@ -14,7 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-//= require facebook
 //= require jquery.dropotron.min
 //= require jquery.min
 //= require jquery.scrollgress.min
